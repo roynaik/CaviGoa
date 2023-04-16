@@ -633,6 +633,11 @@ iframe {
         border-color: #029e9d;
         background: #029e9d; }
 
+        .two-columns {
+          columns: 2;
+          
+        }
+
 @media (max-width: 991px) {
   .nav-tabs {
     width: 100% !important; } }
@@ -744,13 +749,18 @@ iframe {
       margin: 0 !important; }
     .breadcrumb-main .breadcrumb-outer .breadcrumb-content h1 {
       font-size: 44px; }
+      .two-columns {
+        columns: 1;
+      }
 
   .cover-content {
     margin-bottom: 2rem; } }
 @media (max-width: 811px) {
   .breadcrumb-main .breadcrumb-outer .breadcrumb-content h1 {
     font-size: 36px; }
-
+    .two-columns {
+      columns: 1;
+    }
   .page-cover h1 {
     font-size: 36px; }
   .page-cover .author-detail {
@@ -758,7 +768,7 @@ iframe {
 @media (max-width: 639px) {
   .breadcrumb-main .breadcrumb-outer .breadcrumb-content h1 {
     font-size: 28px; }
-
+    
   .page-cover h1 {
     font-size: 28px; } }
 @media (max-width: 479px) {
