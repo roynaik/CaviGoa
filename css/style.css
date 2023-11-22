@@ -311,7 +311,24 @@ img {
 
 .pt-5, .py-5 {
   padding-top: 2.5rem !important; }
+/* Default styles for all images */
+img {
+  width: auto; /* You may adjust this based on your design */
+}
 
+/* Media query for screens larger than 768px (laptop) */
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 65px !important;
+  }
+}
+
+/* Media query for screens up to 767px (mobile) */
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 40px !important;
+  }
+}
 .pt-6, .py-6 {
   padding-top: 3rem !important; }
 
